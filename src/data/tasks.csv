@@ -1,0 +1,36 @@
+Title,ParentTask,MaxXP
+SimpleBashUtils,null,250
+s21_string+,SimpleBashUtils,500
+s21_math,SimpleBashUtils,300
+s21_decimal,SimpleBashUtils,350
+SmartCalc_v1.0,s21_string,500
+s21_matrix,s21_decimal,200
+3DVieweer_v1.0,SmartCalc_v1,750
+Linux,s21_string,300
+LinuxNetwork,Linux,250
+LinuxMonitoring_v1.0,LinuxNetwork,350
+SimpleDocker,LinuxNetwork,300
+LinuxMonitoring_v2.0,LinuxMonitoring_v1.0,350
+CICD,SimpleDocker,300
+DevOps Exam,CICD,200
+s21_matrix+,3DVieweer_v1.0,300
+SmartCalc_v2.0,s21_matrix+,600
+s21_containers,s21_matrix+,350
+3DVieweer_v2.0,SmartCalc_v2.0,750
+MLP,3DVieweer_v2.0,700
+3DVieweer_v2.1,3DVieweer_v2.0,600
+3DVieweer_v2.2,3DVieweer_v2.1,800
+PhotoLab_v1.0,MLP,450
+MonitoringSystem,PhotoLab_v1.0,1000
+CPPE,MLP,400
+Maze,3DVieweer_v2.0,300
+SimpleNavigator_v1.0,Maze,400
+Parallels,Maze,300
+Crypto,SimpleNavigator_v1.0,350
+Transactions,SimpleNavigator_v1.0,700
+s21_memory,SimpleNavigator_v1.0,400
+AlgorithmicTrading,Transactions,800
+DNA Analyzer,Transactions,800
+SQL1,3DVieweer_v1.0,1500
+Info21_v1.0,SQL1,500
+retailAnalitycs_v1.0,Info21_v1.0,600
